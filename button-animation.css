@@ -1,0 +1,13 @@
+button{
+    transform: scale(1);
+    transition: transform 100ms;
+}
+button:hover{
+    transform: scale(1.03);
+    transition: transform 200ms;
+}
+button:active{
+    transform: scale(0.97);
+    transition: transform 50ms;
+    background-color: rgb(197, 197, 204);
+}
